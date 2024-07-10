@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+        <title>shopping card | register page</title>
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-rtl.css" />
+        <link rel="stylesheet" href="css/register.css" />
+
+        <!-- font style -->
+        
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" 
+    rel="stylesheet"
+    />
+    </head>
+
+    <body>
+        <header>
+             <div class="container">
+                 <div class="header-content">
+                    <a href="index.html" class="brand">Shoping Cart </a>
+                    <nav>
+                        <ul>
+                            <li><a href="login.html">Sign In</a></li>
+                            <li><a href="register.html">Sign Up</a></li>
+                            <li id="en-lang">En</li>
+                            <li id="ar-lang">Ar</li>
+                        </ul>
+                    </nav>
+                 </div><!--./header-content-->
+               
+             </div><!--./container-->
+        </header>
+
+        <section class="section-form">
+            <h2>register user</h2>
+            <form action="" novalidate>
+                <input type="file" placeholder="enter your image............ " id="user-image" >
+                <input type="text" placeholder="enter your name....."  id="username"/>
+                <input type="email" placeholder="enter your email...." id="email">
+                <input type="password" placeholder="enter your password..." id="password"/>
+                <input type="submit" value="sign up" id="sign_up">
+
+                Have account <a href="login.html">login</a>
+
+            </form>
+        </section><!--./section-form-->
+        
+       
+       <script src="js/register.js"></script>
+       <script src="js/langDir.js"></script>
+    </body>
+</html>

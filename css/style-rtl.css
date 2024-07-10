@@ -1,0 +1,7 @@
+[dir="rtl"] .products{
+    float: right;
+}
+
+[dir="rtl"] .product-filter{
+    float: left;
+}

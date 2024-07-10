@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+        <title>shopping card | Home page</title>
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-rtl.css" />
+        <link rel="stylesheet" href="css/createProduct.css" />
+        
+        <!-- font style -->
+        
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" 
+    rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <!-- shoping card -->
+    <!-- 
+         <i class="far fa-heart"></i>
+    -->
+    </head>
+
+    <body>
+        <header>
+             <div class="container">
+                 <div class="header-content">
+                    <a href="index.html" class="brand">Shoping Cart </a>
+                    <nav>
+                        <ul id="links">
+                            <li><a href="login.html">Sign In</a></li>
+                            <li><a href="register.html">Sign Up</a></li>
+                        </ul><!--./links-->
+
+                        <ul id="user_info">
+                            <li id="en-lang">En</li>
+                            <li id="ar-lang">Ar</li>
+                            <li><a href="profile.html" id="user"></a></li>
+                            <li><a href="favorites.html" >favourite</a></li>
+                            <li><a href="myproducts.html" >my products</a></li>
+
+
+
+                            <li class="shoppingCart">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="badge"></span>
+
+                                <div class="carts-products">
+                                    <div></div>
+            
+                                    <a href="cartproducts.html">view all products</a>
+
+                                </div><!--./carts-products-->
+                            </li><!--./shoppingCart-->
+
+                            <li><a href="#" id="logout">log out</a></li>
+
+                        </ul><!--./user_info-->
+                    </nav>
+                 </div><!--./header-content-->
+               
+             </div><!--./container-->
+        </header>
+
+        <section class="edit-profile-page">
+           <div class="container">
+            <form action=""  id="edit-profile-form">
+                <input id="upload-image-file" type="file">
+                <input id="changeName" type="text" />
+                <input id="changEmail" type="email" />
+                <input type="submit" value="Edit Profile" />
+                
+            </form>
+
+           </div><!--./container-->
+        </section><!--./create-product-page-->
+
+        <a href="createproduct.html" class="create-product-icon">
+            <i class="fa fa-plus"></i>
+        </a>
+        
+        <script src="js/user.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/langDir.js"></script>
+        <script src="js/cartMenu.js"></script>
+        <script src="js/editProfile.js"></script>
+    </body>
+</html>
